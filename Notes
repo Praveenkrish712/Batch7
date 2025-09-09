@@ -1,0 +1,89 @@
+HTML - Hyber text markup language
+ every website or webpage start with HTML
+ Its not a programing language 
+ its a markup language
+ to create a webpage or website 
+
+ 1) Heading h1 to h6
+
+ 2) paragraph - p
+
+ hr - Self closing tags
+
+ br - Self closing tags
+
+ 3) text farmating
+
+ 4) Anchor tag - a
+
+ 5) image tag - img
+
+ 6) list - orderlist and unorder list
+
+ 7) tables
+
+ 8) forms - inputs and label
+
+ 9) Media Elements - video and audio
+
+ 10) Sematic tags - Header, section, footer, article, aside, nav, and main
+
+
+
+
+
+CSS - Cascading Style Sheet
+1) Types of CSS
+i - inline
+ii - internal
+iii - external 
+
+inline > internal > external
+
+2) CSS syntax
+
+Selector{
+	property:value;
+}
+
+3) Selector
+i - Element Selector (h1) , (h3)
+ii - Class Selector (.) Multiple
+iii - id Selector (#) unique
+iv - universal Selector (*)
+v - group Selector (h1, h2, h3)
+
+4) Colors and Background
+color : red;
+Background-color : black;
+Background-image : url();
+Background-repeat : no-repeat;
+Background-size : cover;
+Background-position : center;
+
+5) text stying
+font-famaily : times new roman;
+font-size: 50px ;
+text-align : center;
+text-tranform: uppercase;
+text-decoration : underline;
+font-weight : 50px;
+line-height : 1.5;
+letter-spacing : 2px;
+
+6) Box model
+margin
+padding
+boder
+content
+
+7) display and Visibility
+visibility
+
+
+flex
+flex direction - row, row-reverse, column, column-reverse
+justify content (X) - start, center, end, space-around, space-evenly, space-between
+align-items (Y) - start, end , center
+flex-wrap -
+align-content - start, center, end, space-around, space-between, space-evenly................

@@ -1,0 +1,133 @@
+*{
+    /* background-color: orange; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+/* 
+}
+
+h1, h2, h3{
+    color: white;
+}
+
+.box > h2{
+    color: green;
+}
+
+#Container > h1{
+    color: gold;
+}
+
+h2{
+    color: red;
+    background-color: black;
+}
+
+p{
+    background-image: url(./Assets/Batman-Essential-Rebirth.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-position: center;
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: line-through;
+    font-weight: 800;
+    line-height: 2;
+    letter-spacing: 10px;
+} */
+
+/* .one{
+    height: 200px;
+    width: 200px;
+    background-color: gray;
+    margin: 100px 50px 30px 20px;
+    /* margin-bottom: 20px;
+    margin-top: 100px;
+    margin-left: 100px; */
+    /* padding: 50px 20px 40px 100px;
+    border: 5px solid black;
+    outline: 5px solid red; */
+}
+
+/* h1{
+    visibility: hidden;
+/* } */
+
+
+
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.box4{
+    width: 100px;
+    height: 100px;
+    background-color: sienna;
+}
+
+.box5{
+    width: 100px;
+    height: 100px;
+    background-color: violet;
+}
+
+.box6{
+    width: 100px;
+    height: 100px;
+    background-color: darkorange;
+}
+
+.box7{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+.box8{
+    width: 400px;
+    height: 100px;
+    background-color: rgb(133, 107, 75);
+}
+
+.box9{
+    width: 400px;
+    height: 100px;
+    background-color: rgb(24, 15, 4);
+}
+
+.box10{
+    width: 400px;
+    height: 100px;
+    background-color: rgb(38, 182, 38);
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    /* flex-direction: row; */
+    /* justify-content: start; */
+    /* align-items: center ; */
+    height: 500px;
+    border: 5px dashed black;
+}
