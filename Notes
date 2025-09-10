@@ -87,3 +87,13 @@ justify content (X) - start, center, end, space-around, space-evenly, space-betw
 align-items (Y) - start, end , center
 flex-wrap -
 align-content - start, center, end, space-around, space-between, space-evenly
+gap - values (px)
+flex (on items) - flex :1
+order - order:1
+
+positioning 
+i - static - default
+ii - relative - sets to move (left,top)
+iii - absolute - to search non-static parents
+iv - fixed - to fit the place of web page
+v - sticky - 
