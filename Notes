@@ -97,3 +97,8 @@ ii - relative - sets to move (left,top)
 iii - absolute - to search non-static parents
 iv - fixed - to fit the place of web page
 v - sticky - 
+
+
+Grid - 2 dimensional layout system
+
+

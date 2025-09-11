@@ -97,7 +97,7 @@ h1{
 /* } */
 
 
-.blue{
+/* .blue{
     width: 300px;
     height: 300px;
     background-color: blue;
@@ -110,10 +110,99 @@ h1{
     height: 100px;
     background-color: yellow;
     position: sticky;
-    top: 0;
+    top: 0; */
     /* top: 10px; */
-}
+/* } */
 
 /* h2, h1{
     position: fixed;
 } */
+
+
+
+body{
+    background-color: aqua;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,minmax(200px,1fr));
+    /* grid-template-rows: 300px 500px 1fr; */
+    /* column-gap: 20px; */
+    /* row-gap: 20px; */
+    gap: 20px;
+}
+
+.para{
+    padding: 20px;
+    background-color: red;
+    color: white;
+}
+
+.outerbox{
+    display: grid;
+    margin: 20px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 100px 200px 100px;
+    gap: 20px;
+    /* grid-auto-flow: column; */
+}
+
+.box{
+    background-color: green;
+    color: white;
+    font-size: 50px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1{
+    /* grid-column-start: 1;
+    grid-column-end: 4; */
+    /* grid-column: 1/4; */
+    grid-column: span 3;
+}
+
+.box2{
+    grid-row: span 2;
+}
+
+.layout > div{
+    border: 1px solid black;
+    background-color: coral;
+    font-size: 50px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "h h h h h"
+    "sb1 m m m sb2"
+    "f f f f f ";
+    grid-template-rows: 10vh 80vh 10vh;
+}
+
+.header{
+    grid-area: h;
+}
+
+.sidebar1{
+    grid-area: sb1;
+}
+
+.main{
+    grid-area: m;
+}
+
+.sidebar2{
+    grid-area: sb2;
+}
+
+.footer{
+    grid-area: f;
+}
